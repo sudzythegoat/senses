@@ -187,6 +187,12 @@
         tab.isActive = true;
     }
 
+    function info() {
+        let level = 2;
+        let exename = "Senses";
+        console.log("Level: " + level\n"Name: " + exename + " Web Executor");
+    }
+
     // Add a new tab button
     const newTabButton = document.createElement('button');
     newTabButton.textContent = '+';
